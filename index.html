@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
 </head>
+
 <body>
     <!-- header with width 100% and fixed -->
     <header>
@@ -39,188 +43,222 @@
         <!-- jumbotron -->
         <section id="jumbo" class="debug p-top">
             <div class="hero big-container p-2r">
-                <div class="title"><h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <div class="title">
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 </div>
                 <!-- div with text and all anchor -->
                 <div class="heroContent d-flex space-between">
-                    
+
                     <!-- div with text and anchor -->
                     <div class="contentContainer">
-                        <p class="j-position">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        <p class="j-position">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono
+                            accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione
+                            sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
 
-                    <div class="j-position">
-                        <button class="btnB"><a href="#">Inizia la tua prova gratuita</a></button>
-                    </div>
-                    
-                    <div class="j-position">
-                        <a href="#">Annulla in qualsiasi momento</a>
-                    </div>
-                    
-                    <div class="j-position">
-                        <a href="#plans" class="scrollDown"><i class="fa-solid fa-arrow-down"></i></a>
-                    </div>
+                        <div class="j-position">
+                            <button class="btnB"><a href="#">Inizia la tua prova gratuita</a></button>
+                        </div>
+
+                        <div class="j-position">
+                            <a href="#">Annulla in qualsiasi momento</a>
+                        </div>
+
+                        <div class="j-position">
+                            <a href="#plans" class="scrollDown"><i class="fa-solid fa-arrow-down"></i></a>
+                        </div>
                     </div>
 
                     <!-- div with img -->
                     <div class="jumboContainer">
-                        <picture class="jumbo-img"><img src="./img/jumbo.png" alt="jumbo" ></picture>
+                        <picture class="jumbo-img"><img src="./img/jumbo.png" alt="jumbo"></picture>
                     </div>
                 </div>
             </div>
-            
+
         </section>
         <!-- plans section -->
-        <section id="plans" class="small-container p-2r debug">     
+        <section id="plans" class="small-container p-2r debug">
             <div class="plansHeader p-4r">
                 <div class="plansTitle">
                     <h2>Trova il piano business che fa per te</h2>
                 </div>
                 <div class="plansFilter">
 
-                    <span class="inputMonth"><input type="radio" name="filter" id="monthly expenses"> Fatturazione Mensile</span>
-                    
-                    <span class="inputYear"><input type="radio" name="filter" id="yearly expenses"> Fatturazione Annuale</span>
-                                        
+                    <span class="inputMonth"><input type="radio" name="filter" id="monthly expenses"> Fatturazione
+                        Mensile</span>
+
+                    <span class="inputYear"><input type="radio" name="filter" id="yearly expenses"> Fatturazione
+                        Annuale</span>
+
                 </div>
+            </div>
+            <div class="plansList  d-flex">
+                <div class="proPlan p-showcase debug">
+                    <!-- Plan target div with who is plan aiming for -->
+                    <div class="planTarget">
+                        <i class="fa-solid fa-user"></i> Singolo
+                    </div>
 
-                <div class="plansList d-flex">
-                    <div class="proPlan p-showcase debug">
-                        <!-- Plan target div with who is plan aiming for -->
-                        <div class="planTarget">
-                            <i class="fa-solid fa-user"></i> Singolo
-                        </div>
+                    <!-- Div with name of the plan and prize info -->
+                    <div class="planPrice p-20 p-2r">
+                        <h3>Professional</h3>
+                        <p class="price">&euro; 12.00</p>
+                        <p class="transparent">/mese</p>
+                    </div>
 
-                        <!-- Div with name of the plan and prize info -->
-                        <div class="planPrice p-20 p-2r">
-                            <h3>Professional</h3>
-                            <p class="price">&euro; 12.00</p>
-                            <p class="transparent">/mese</p>
-                        </div>
+                    <!-- Div with all the plan info -->
+                    <div class="planInfo p-20 p-2r planSpace">
+                        <ul>
+                            <li class="p-user"> <i class="fa-solid fa-user"></i> 1 utente</li>
 
-                        <!-- Div with all the plan info -->
-                        <div class="planInfo p-20 p-2r planSpace">
-                            <ul>
-                                <li class="p-user"> <i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li class="p-space"> <i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione
+                                sicuro</li>
 
-                                <li class="p-space"> <i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                            <li class="p-share"> <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività
+                                premium e condivisione file semplice e sicura </li>
 
-                                <li class="p-share"> <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura </li> <br>
-                                
+                            <br>   
+                        </ul>
+                    </div>
+
+                    <!-- Div where you can choose free trial or to buy now-->
+                    <div class="planTrial p-20 p-2r planSpace d-flex">
+                        <button class="btnB">Prova gratis per 30 giorni</button>
+                        <p>oppure <a href="#">acquista ora</a></p>
+                    </div>
+
+                    <hr class="p-20">
+
+                    <!-- Div with all the exclusive stuff of the plan -->
+                    <div class="planExclusive p-20 p-2r planSpace">
+                        <h5>Punti Salienti del piano</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert
+                            </li>
+                            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="advancedPlan p-showcase">
+                    <!-- Plan target div with who is plan aiming for -->
+                    <div class="planTarget">
+                        <i class="fa-solid fa-users"></i> Team
+                    </div>
+
+                    <!-- Div with name of the plan and prize info -->
+                    <div class="planPrice p-20 p-2r">
+                        <h3>Advanced</h3>
+                        <p class="price">&euro; 18.00</p>
+                        <p class="transparent">/utente/mese</p>
+                    </div>
+
+                    <!-- Div with all the plan info -->
+                    <div class="planInfo p-20 p-2r planSpace">
+                        <ul>
+                            <li class="p-user"> <i class="fa-solid fa-users"></i> 3 o più utenti</li>
+
+                            <li class="p-space"> <i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha
+                                bisogno il tuo team</li>
+
+                            <li class="p-share"> <i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di
+                                controllo e per tenere al sicuro tutti i file del tuo team</li>
+                            <br>
+                        </ul>
+                    </div>
+
+                    <!-- Div where you can choose free trial or to buy now-->
+                    <div class="planTrial p-20 p-2r planSpace d-flex">
+                        <button class="btnB">Prova gratis per 30 giorni</button>
+                        <p>oppure <a href="#">acquista ora</a></p>
+                    </div>
+
+                    <hr class="p-20">
+
+                    <!-- Div with all the exclusive stuff of the plan -->
+                    <div class="planExclusive p-20 p-2r planSpace">
+                        <h5>Punti Salienti del piano</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
+
+                            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+
+                            <li><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole
+                            </li>
+
+                            <li><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
+
+                            <li><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="enterprisePlan p-showcase">
+                    <!-- Plan target div with who is plan aiming for -->
+                    <div class="planTarget">
+                        <i class="fa-solid fa-building"></i> Azienda
+                    </div>
+
+                    <!-- Div with name of the plan and prize info -->
+                    <div class="planPrice p-20 p-2r">
+                        <h3>Enterprise</h3>
+                        <p class="price">Contattaci</p>
+                        <p class="transparent">-</p>
+                    </div>
+
+                    <!-- Div with all the plan info -->
+                    <div class="planInfo  p-20 p-2r planSpace">
+                        <ul>
+                            <li class="p-user"> <i class="fa-solid fa-user"></i> 10 o più utenti</li>
+
                             
-                            </ul>                       
-                        </div>
+                            <li class="p-space "><i class="fa-solid fa-folder "></i> Soluzioni personalizzabili per la tua azienda</li>
 
-                        <!-- Div where you can choose free trial or to buy now-->
-                        <div class="planTrial p-20 p-2r planSpace d-flex">
-                            <button class="btnB">Prova gratis per 30 giorni</button>
-                            <p>oppure <a href="#">acquista ora</a></p>
-                        </div>
-
-                        <hr class="p-20">
-
-                        <!-- Div with all the exclusive stuff of the plan -->
-                        <div class="planExclusive p-20 p-2r planSpace">
-                            <h5>Punti Salienti del piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</li>
-                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
-                            </ul>
-                        </div>
+                            <li class="p-share"> <i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata
+                                per aiutare gli amministratori in una gestione su larga scala</li>
+                        </ul>
                     </div>
-                    <div class="advancedPlan p-showcase">
-                        <!-- Plan target div with who is plan aiming for -->
-                        <div class="planTarget">
-                            <i class="fa-solid fa-users"></i> Team
-                        </div>
 
-                        <!-- Div with name of the plan and prize info -->
-                        <div class="planPrice p-20 p-2r">
-                            <h3>Advanced</h3>
-                            <p class="price">&euro; 18.00</p>
-                            <p class="transparent">/utente/mese</p>
-                        </div>
-
-                        <!-- Div with all the plan info -->
-                        <div class="planInfo p-20 p-2r planSpace">
-                            <ul>
-                                <li class="p-user"> <i class="fa-solid fa-users"></i> 3 o più utenti</li>
-
-                                <li class="p-space"> <i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
-
-                                <li class="p-share"> <i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
-                            </ul>                       
-                        </div>
-
-                        <!-- Div where you can choose free trial or to buy now-->
-                        <div class="planTrial p-20 p-2r planSpace d-flex">
-                            <button class="btnB">Prova gratis per 30 giorni</button>
-                            <p>oppure <a href="#">acquista ora</a></p>
-                        </div>
-
-                        <hr class="p-20">
-
-                        <!-- Div with all the exclusive stuff of the plan -->
-                        <div class="planExclusive p-20 p-2r planSpace">
-                            <h5>Punti Salienti del piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
-
-                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
-
-                                <li><i class="fa-solid fa-check"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
-
-                                <li><i class="fa-solid fa-check"></i> Possibilità di inserire nuovi membri del team</li>
-
-                                <li><i class="fa-solid fa-check"></i> Gestione dei permessi in base ai ruoli</li>
-                            </ul>
-                        </div>
+                    <!-- Div where you can choose free trial or to buy now-->
+                    <div class="planTrial p-20 p-2r planSpace d-flex">
+                        <button class="btnB">Contattaci</button>
+                        <p>oppure <a href="#">acquista ora</a></p>
                     </div>
-                    <div class="enterprisePlan p-showcase">
-                        <!-- Plan target div with who is plan aiming for -->
-                        <div class="planTarget">
-                            <i class="fa-solid fa-building"></i> Azienda
-                        </div>
 
-                        <!-- Div with name of the plan and prize info -->
-                        <div class="planPrice p-20 p-2r">
+                    <hr class="p-20">
+
+                    <!-- Div with all the exclusive stuff of the plan -->
+                    <div class="planExclusive p-20 p-2r planSpace">
+                        <h5>Punti Salienti del piano</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            <li><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
+                            <li><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plan explain section -->
+            <div class="planExplain">
+                <div class="enterpriseExplain">
+
+                    <div class="planTarget">
+                        <i class="fa-solid fa-building"></i> Azienda
+                    </div>
+
+                    <div class="explainContainer p-2r p-20 d-flex space-between">
+                        <div class="explainContent">
                             <h3>Enterprise</h3>
-                            <p class="price">Contattaci</p>
-                            <p class="transparent">-</p>
+                            <p class="price">Contatta l'ufficio vendite per i prezzi</p>
+                            <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella
+                                gestione su qualsiasi scala.</p>
                         </div>
-
-                        <!-- Div with all the plan info -->
-                        <div class="planInfo p-20 p-2r planSpace">
-                            <ul>
-                                <li class="p-user"> <i class="fa-solid fa-user"></i> 10 o più utenti</li>
-
-                                <li class="p-space"> <i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
-
-                                <li class="p-share"> <i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
-                            </ul>                       
-                        </div>
-
-                        <!-- Div where you can choose free trial or to buy now-->
-                        <div class="planTrial p-20 p-2r planSpace d-flex">
-                            <button class="btnB">Contattaci</button>
-                            <p>oppure <a href="#">acquista ora</a></p>
-                        </div>
-
-                        <hr class="p-20">
-
-                        <!-- Div with all the exclusive stuff of the plan -->
-                        <div class="planExclusive p-20 p-2r planSpace">
-                            <h5>Punti Salienti del piano</h5>
-                            <ul>                       
-                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
-                                <li><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
-                                <li><i class="fa-solid fa-check"></i> Possibilità di personalizzazione totale</li>
-                            </ul>
+                        <div class="explainContact ">
+                            <button class="btnB">Contatta l'ufficio vendite</button>
                         </div>
                     </div>
                 </div>
-
-                
-            </div>      
+            </div>
         </section>
         <!-- partner section -->
         <section id="partner" class="small-container debug">
@@ -247,4 +285,5 @@
 
     </footer>
 </body>
+
 </html>
