@@ -30,6 +30,9 @@ body{
     border: 1px solid red;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 /* flex settings */
 .d-flex{
@@ -68,6 +71,10 @@ ul{
     padding-top: 2rem;
 }
 
+.p-4r{
+    padding-top: 4rem;
+}
+
 .btnB{
     background-color: var(--btn-bg);
     color: white;
@@ -86,6 +93,7 @@ header{
     height: 60px;
     position: fixed;
     background-color: var(--light-color);
+    z-index: 1000;
 }
 
 .navbar{
@@ -113,5 +121,41 @@ header{
 
 #jumbo{
     padding-top: 60px;
-    
+    background-color: var(--light-blue);
 }
+
+.contentContainer{
+    width: 30%;
+    position: relative;
+    bottom: -50px;
+}
+
+.jumboContainer{
+    width: 65%;
+}
+
+.j-position{
+    margin-bottom: 10%;
+}
+
+.j-position .btnB{
+    padding: 15px;
+}
+
+.j-position i{
+    font-size: 40px;
+    position: relative;
+    bottom: -30px;
+}
+
+.jumbo-img img{
+    width: 100%;
+    position: relative;
+    bottom: -60px;
+}
+
+.contentContainer a{
+    text-decoration: none;
+}
+
+/* plans section config */
