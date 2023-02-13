@@ -30,6 +30,7 @@ body{
     border: 1px solid red;
 }
 
+
 /* flex settings */
 .d-flex{
     display:flex;
@@ -37,6 +38,10 @@ body{
 
 .space-between{
     justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
 }
 
 /* // flex settings */
@@ -51,6 +56,29 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    list-style: none;
+}
+
+.p-20{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.p-2r{
+    padding-top: 2rem;
+}
+
+.btnB{
+    background-color: var(--btn-bg);
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+}
+
+h1{
+    font-size: 5rem;
+}
+
 /* header config */
 
 header{
@@ -62,11 +90,28 @@ header{
 
 .navbar{
    width: 100%;
-   height: 100%;    
+   height: 100%;
+   align-items: center;   
+}
+
+.anchorList{
+    padding:0 10px;
+}
+
+.anchorList a{
+    padding: 15px;
+    text-decoration: none;
+    color: var(--footer-bg);
+}
+
+.btnB a{
+    text-decoration: none;
+    color: var(--light-color);
 }
 
 /* jumbo section config */
 
 #jumbo{
     padding-top: 60px;
+    
 }
