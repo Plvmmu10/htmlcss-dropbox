@@ -26,6 +26,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.debug{
+    border: 1px solid red;
+}
+
 /* flex settings */
 .d-flex{
     display:flex;
@@ -39,8 +43,30 @@ body{
 
 .big-container{
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .small-container{
     max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* header config */
+
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: var(--light-color);
+}
+
+.navbar{
+   width: 100%;
+   height: 100%;    
+}
+
+/* jumbo section config */
+
+#jumbo{
+    padding-top: 60px;
 }
