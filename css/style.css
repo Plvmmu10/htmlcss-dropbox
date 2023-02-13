@@ -82,6 +82,11 @@ ul{
     padding: 5px 10px;
 }
 
+.fa-check{
+    color: var(--btn-bg);
+}
+
+
 /* title elements config */
 h1{
     font-size: 5rem;
@@ -89,6 +94,10 @@ h1{
 
 h2{
     font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
 }
 
 /* header config */
@@ -174,3 +183,60 @@ header{
 .plansFilter span{
     margin-right: 3rem;
 }
+
+/* plans showcase config */
+.plansList{
+    width: 100%;
+}
+.p-showcase{
+    margin-right: 50px;
+    width: calc(100% / 3);
+    border: 2px solid var(--light-grey);
+}
+
+.p-showcase hr{
+    width: 50px;
+    border: 2px solid var(--light-grey);
+    margin-left: 20px;
+}
+
+.planTarget{
+    border-bottom: 2px solid var(--light-grey);
+    text-align: center;
+    padding: 5px;
+}
+
+.planSpace > *{
+    padding: 1rem;
+}
+
+.p-showcase li{
+    padding-bottom: 10px;
+}
+
+/* planPrice div config */
+.planPrice h3{
+    padding-bottom: 10px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.transparent{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* planTrial div config */
+.planTrial{
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* planExclusive div config */
+
+.planExclusive{
+    padding-bottom: 20px;
+}
+
+
