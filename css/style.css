@@ -173,6 +173,9 @@ header{
 }
 
 /* plans section config */
+.plansHeader{
+    margin: 20px;
+}
 .plansTitle{
     padding-bottom: 2rem ;
 }
@@ -189,8 +192,8 @@ header{
     width: 100%;
 }
 .p-showcase{
-    margin-right: 50px;
-    width: calc(100% / 3);
+    margin: 20px;
+    width: calc((100% / 3) - 20px );
     border: 2px solid var(--light-grey);
 }
 
@@ -237,6 +240,34 @@ header{
 
 .planExclusive{
     padding-bottom: 20px;
+}
+
+/* Plan explain section config */
+.planExplain{
+    border: 2px solid var(--light-grey);
+    margin: 2rem 1.4rem;
+}
+
+.explainContent h3{
+    padding-bottom: 10px;
+}
+
+.explainContent .price{
+    padding-bottom: 50px;
+}
+
+.explainContent{
+    width: 70%;
+    padding-bottom: 10px;
+}
+
+.explainContact{
+    width: 25%;
+}
+
+.explainContact button{
+    width: 100%;
+    height: 50px;
 }
 
 
