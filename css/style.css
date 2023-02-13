@@ -21,3 +21,26 @@
 --freetrial-text-color: #784769;
 
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* flex settings */
+.d-flex{
+    display:flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+/* // flex settings */
+
+.big-container{
+    max-width: 1200px;
+}
+
+.small-container{
+    max-width: 1000px;
+}
