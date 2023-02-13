@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Color styles */
+:root{    
+--light-blue: #B4D0E7;
+--light-color: #FFFFFF;
+--btn-bg: #0061FF;
+--light-grey: #F5F5F5;
+--designit-logo-color: #A2D39B;
+--wbr-color: #D5001F;
+--clearchannel-color: #FFD830;
+--florida-color: #0093CE;
+--topps-color: #FF1C1C;
+--arizona-color: #61082B;
+--lonelyplanet-color: #0D2481;
+--footer-bg: #000000;
+--freetrial-text-color: #784769;
+
+}
