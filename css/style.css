@@ -82,8 +82,13 @@ ul{
     padding: 5px 10px;
 }
 
+/* title elements config */
 h1{
     font-size: 5rem;
+}
+
+h2{
+    font-size: 2rem;
 }
 
 /* header config */
@@ -159,3 +164,13 @@ header{
 }
 
 /* plans section config */
+.plansTitle{
+    padding-bottom: 2rem ;
+}
+
+.plansFilter{
+    padding-bottom: 2rem;
+}
+.plansFilter span{
+    margin-right: 3rem;
+}
