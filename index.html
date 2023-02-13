@@ -18,7 +18,7 @@
 <body>
     <!-- header with width 100% and fixed -->
     <header>
-        <nav class=" navbar space-between d-flex debug p-20">
+        <nav class=" navbar space-between d-flex p-20">
             <div class="leftNav d-flex">
                 <picture class="logo">
                     <img src="./img/logo-small.png" alt="logo">
@@ -41,7 +41,7 @@
     </header>
     <main>
         <!-- jumbotron -->
-        <section id="jumbo" class="debug p-top">
+        <section id="jumbo" class="p-top">
             <div class="hero big-container p-2r">
                 <div class="title">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
@@ -78,7 +78,7 @@
 
         </section>
         <!-- plans section -->
-        <section id="plans" class="small-container p-2r debug">
+        <section id="plans" class="small-container p-2r">
             <div class="plansHeader p-4r">
                 <div class="plansTitle">
                     <h2>Trova il piano business che fa per te</h2>
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="plansList  d-flex">
-                <div class="proPlan p-showcase debug">
+                <div class="proPlan p-showcase">
                     <!-- Plan target div with who is plan aiming for -->
                     <div class="planTarget">
                         <i class="fa-solid fa-user"></i> Singolo
@@ -110,7 +110,7 @@
                     <!-- Div with all the plan info -->
                     <div class="planInfo p-20 p-2r planSpace">
                         <ul>
-                            <li class="p-user"> <i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li class="p-user"><i class="fa-solid fa-user"></i> 1 utente</li>
 
                             <li class="p-space"> <i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione
                                 sicuro</li>
@@ -118,7 +118,7 @@
                             <li class="p-share"> <i class="fa-solid fa-share-nodes"></i> Funzioni di produttività
                                 premium e condivisione file semplice e sicura </li>
 
-                            <br>   
+                            <br>
                         </ul>
                     </div>
 
@@ -134,8 +134,10 @@
                     <div class="planExclusive p-20 p-2r planSpace">
                         <h5>Punti Salienti del piano</h5>
                         <ul>
+                            
                             <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert
                             </li>
+                            
                             <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
                         </ul>
                     </div>
@@ -143,7 +145,7 @@
                 <div class="advancedPlan p-showcase">
                     <!-- Plan target div with who is plan aiming for -->
                     <div class="planTarget">
-                        <i class="fa-solid fa-users"></i> Team
+                        Team
                     </div>
 
                     <!-- Div with name of the plan and prize info -->
@@ -156,7 +158,7 @@
                     <!-- Div with all the plan info -->
                     <div class="planInfo p-20 p-2r planSpace">
                         <ul>
-                            <li class="p-user"> <i class="fa-solid fa-users"></i> 3 o più utenti</li>
+                            <li class="p-user"><i class="fa-solid fa-user"></i> 3 o più utenti</li>
 
                             <li class="p-space"> <i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha
                                 bisogno il tuo team</li>
@@ -210,8 +212,9 @@
                         <ul>
                             <li class="p-user"> <i class="fa-solid fa-user"></i> 10 o più utenti</li>
 
-                            
-                            <li class="p-space "><i class="fa-solid fa-folder "></i> Soluzioni personalizzabili per la tua azienda</li>
+
+                            <li class="p-space "><i class="fa-solid fa-folder "></i> Soluzioni personalizzabili per la
+                                tua azienda</li>
 
                             <li class="p-share"> <i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata
                                 per aiutare gli amministratori in una gestione su larga scala</li>
@@ -261,9 +264,21 @@
             </div>
         </section>
         <!-- partner section -->
-        <section id="partner" class="small-container debug">
-            <picture></picture>
-            <h3>Entra in contatto con un partner Dropbox</h3>
+        <section id="partner" class="small-container">
+            <div class="partnerFind d-flex">
+                <div class="p-img">
+                    <picture>
+                        <img src="./img/partner.png" alt="partnerimg">
+                    </picture>
+                </div>
+
+                <div class="partnerText"> 
+                    <h3>Entra in contatto con un partner Dropbox</h3>
+                    <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <button class="partnerFinder">Trova un partner</button>
+                </div>
+            </div>
+            
         </section>
         <!-- business section -->
         <section id="business" class="small-container debug">
