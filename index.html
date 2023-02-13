@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
 </head>
@@ -36,15 +37,40 @@
     </header>
     <main>
         <!-- jumbotron -->
-        <section id="jumbo" class="debug p-top big-container">
-            <div class="hero p-2r">
-                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+        <section id="jumbo" class="debug p-top">
+            <div class="hero big-container p-2r">
+                <div class="title"><h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                </div>
+                <!-- div with text and all anchor -->
+                <div class="heroContent d-flex space-between">
+                    
+                    <!-- div with text and anchor -->
+                    <div class="contentContainer">
+                        <p class="j-position">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+
+                    <div class="j-position">
+                        <button class="btnB"><a href="#">Inizia la tua prova gratuita</a></button>
+                    </div>
+                    
+                    <div class="j-position">
+                        <a href="#">Annulla in qualsiasi momento</a>
+                    </div>
+                    
+                    <div class="j-position">
+                        <a href="#plans" class="scrollDown"><i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                    </div>
+
+                    <!-- div with img -->
+                    <div class="jumboContainer">
+                        <picture class="jumbo-img"><img src="./img/jumbo.png" alt="jumbo" ></picture>
+                    </div>
+                </div>
             </div>
             
         </section>
         <!-- plans section -->
-        <section id="plans" class="small-container debug">
-            <h2>Trova il piano business che fa per te</h2>
+        <section id="plans" class="small-container p-4r debug">           
         </section>
         <!-- partner section -->
         <section id="partner" class="small-container debug">
