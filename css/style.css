@@ -242,6 +242,10 @@ header{
     padding-bottom: 20px;
 }
 
+.planExclusive{
+    flex-flow: row;
+}
+
 /* Plan explain section config */
 .planExplain{
     border: 2px solid var(--light-grey);
@@ -270,4 +274,35 @@ header{
     height: 50px;
 }
 
+/* Partner section config */
+.partnerFind{
+    align-items: center;
+}
 
+.p-img{
+    width: 60%;
+    padding-right: 40px;
+    margin: 20px;
+}
+
+.p-img img{
+    width: 100%;
+}
+
+.partnerText{
+    width: 30%;
+}
+
+.partnerText h3{
+    padding-bottom: 10px;
+}
+
+.partnerText p{
+    padding-bottom: 20px;
+}
+
+.partnerFinder{
+    background-color: white;
+    border: 1px solid var(--footer-bg);
+    padding: 10px;
+}
