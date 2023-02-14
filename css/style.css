@@ -364,18 +364,23 @@ button:hover{
 }
 
 .logoContainer{
-    width: 50%;
-    height: 50%;
+    width: calc(100% / 2);
+    height: calc(100% / 2);
     justify-content: center;
     align-items: center;
 }
 
 .logoContainer picture{
-    width: 60%;  
+    width: 40%; 
 }
 
 .teamLogo{
     width: 100%;   
+}
+
+.textLogo{
+    width: 45%;
+    padding-bottom: 2rem;
 }
 
 .teamText{
@@ -388,6 +393,10 @@ button:hover{
 
 .teamText > picture, .teamContent{
     padding: 20px;
+}
+
+.teamContentAuthor{
+    padding: 1.5rem 0 12rem 1.5rem;
 }
 
 .teamText hr{
