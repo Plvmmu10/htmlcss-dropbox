@@ -79,11 +79,11 @@
         </section>
         <!-- plans section -->
         <section id="plans" class="small-container p-2r">
-            <div class="plansHeader p-4r">
-                <div class="plansTitle">
+            <div class="plansHeader m-20 p-4r">
+                <div class="plansTitle p-2r">
                     <h2>Trova il piano business che fa per te</h2>
                 </div>
-                <div class="plansFilter">
+                <div class="plansFilter p-2r">
 
                     <span class="inputMonth"><input type="radio" name="filter" id="monthly expenses"> Fatturazione
                         Mensile</span>
@@ -93,7 +93,7 @@
 
                 </div>
             </div>
-            <div class="plansList  d-flex">
+            <div class="plansList d-flex">
                 <div class="proPlan p-showcase">
                     <!-- Plan target div with who is plan aiming for -->
                     <div class="planTarget">
@@ -110,7 +110,7 @@
                     <!-- Div with all the plan info -->
                     <div class="planInfo p-20 p-2r planSpace">
                         <ul>
-                            <li class="p-user"><i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li class="p-user d-flex"> <i class="fa-solid fa-user"></i> 1 utente</li>
 
                             <li class="p-space"> <i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione
                                 sicuro</li>
@@ -135,10 +135,10 @@
                         <h5>Punti Salienti del piano</h5>
                         <ul>
                             
-                            <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert
+                            <li> <i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert
                             </li>
                             
-                            <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            <li> <i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
                         </ul>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
             </div>
 
             <!-- Plan explain section -->
-            <div class="planExplain">
+            <div class="planExplain m-20 p-2r">
                 <div class="enterpriseExplain">
 
                     <div class="planTarget">
@@ -264,9 +264,9 @@
             </div>
         </section>
         <!-- partner section -->
-        <section id="partner" class="small-container">
+        <section id="partner" class="small-container p-2r">
             <div class="partnerFind d-flex">
-                <div class="p-img">
+                <div class="p-img m-20">
                     <picture>
                         <img src="./img/partner.png" alt="partnerimg">
                     </picture>
@@ -282,8 +282,9 @@
         </section>
         <!-- business section -->
         <section id="business" class="small-container">
-            <h2>Esegui più operazioni con Dropbox Business</h2>
-            <div class="row d-flex">
+            <div class="businessTitle m-20"><h2>Esegui più operazioni con Dropbox Business</h2></div>
+            
+            <div class="row d-flex m-20">
 
                 <div class="businessItem">
                     <div>
@@ -347,15 +348,79 @@
             </div>
         </section>
         <!-- team section -->
-        <section id="team" class="debug">
-            <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
-            <div></div>
-            <div></div>
-            <div></div>
+        <section id="team">
+
+            <div class="teamTitle small-container">
+                <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+                <a href="#">Scopri di più sui nostri clienti</a>
+            </div>
+
+            <div class="teamList p-4r d-flex">
+                
+                <div class="teamContainer d-flex">
+    
+                    <div class="logoContainer d-flex" id="designIt">
+                        <picture><img src="./img/designit.svg" alt="designitlogo" class="teamLogo"></picture>
+                    </div>
+    
+                    <div class="logoContainer d-flex" id="arizona">
+                        <picture><img src="./img/arizona_state_university.svg" alt="floridalogo" class="teamLogo"></picture>
+                    </div>
+    
+                    <div class="logoContainer d-flex" id="florida">
+                        <picture><img src="./img/university_of_florida.svg" alt="designitlogo" class="teamLogo"></picture>
+                    </div>
+                    <div class="logoContainer d-flex" id="topps">
+                        <picture><img src="./img/topps.svg" alt="designitlogo" class="teamLogo"></picture>
+                    </div>
+                </div>
+    
+                <div class="teamContainer d-flex">
+                    <div class="teamText d-flex ">
+                        <picture><img src="./img/designit.svg" alt="designitLogo" class="teamLogo"></picture>
+
+                        <hr>
+
+                        <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".</p>
+
+                        <p>Morten Thomsen, Global IT Lead</p>
+                    </div>
+                </div>
+    
+                <div class="teamContainer d-flex">
+                    <div class="logoContainer d-flex" id="wbr">
+                        <picture><img src="./img/world_bicycle_relief.svg" alt="designitlogo" class="teamLogo"></picture>
+                    </div>
+    
+                    <div class="logoContainer d-flex" id="hearst">
+                        <picture><img src="./img/hearst_corp.svg" alt="designitlogo" class="teamLogo"></picture>
+                    </div>
+    
+                    <div class="logoContainer d-flex" id="lonelyplanet">
+                        <picture><img src="./img/lonely_planet.svg" alt="designitlogo" class="teamLogo"></picture>
+                    </div>
+                    <div class="logoContainer d-flex" id="clearchannel">
+                        <picture><img src="./img/clear_channel.svg" alt="designitlogo" class="teamLogo"></picture>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-flex chooseBbackground">
+                <div class="chooseBcontainer small-container d-flex">
+                    <div>
+                        <h2>Porta Dropbox Business nella tua azienda.</h2>
+                    </div>
+    
+                    <div>
+                        <button>Inizia la tua prova gratuita</button>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- FAQ section -->
-        <section id="faq" class="small-container debug">
+        <section id="faq" class="small-container p-4r debug">
             <h2>Domande frequenti</h2>
+            
         </section>
     </main>
     <footer>
