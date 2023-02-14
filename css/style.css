@@ -454,3 +454,16 @@ button:hover{
 }
 
 /* FAQ section config */
+.faqTitle{
+    padding-bottom: 1.5rem;
+}
+
+.faqContainer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq{
+    font-weight: bold;
+    padding: 1.5rem;
+}
