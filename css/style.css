@@ -156,7 +156,7 @@ button:hover{
 /* jumbo section config */
 
 #jumbo{
-    padding-top: 60px;
+    padding-top: 54px;
     background-color: var(--light-blue);
 }
 
@@ -170,7 +170,7 @@ button:hover{
 }
 
 .j-position{
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 
 .j-position .btnB{
@@ -371,7 +371,7 @@ button:hover{
 }
 
 .logoContainer picture{
-    width: 50%;  
+    width: 60%;  
 }
 
 .teamLogo{
