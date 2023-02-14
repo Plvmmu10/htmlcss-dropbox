@@ -454,6 +454,10 @@ button:hover{
 }
 
 /* FAQ section config */
+
+#faq{
+    margin-bottom: 5rem;
+}
 .faqTitle{
     padding-bottom: 1.5rem;
 }
@@ -466,4 +470,44 @@ button:hover{
 .faq{
     font-weight: bold;
     padding: 1.5rem;
+}
+
+/* footer config */
+footer{
+    background-color: var(--footer-bg);
+}
+
+/* footer list config */
+.footerList{
+    padding: 4rem 0;
+}
+.footerList a{
+    text-decoration: none;
+    color: white;
+}
+
+.footerList span{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.footerList span, li{
+    padding: 5px;
+}
+
+/* bottom footer config */
+
+footer hr{
+    width: 10%;
+}
+
+.bottomFooter{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 4rem 0;
+}
+
+.bottomFooter i{
+    padding-top: 4rem;
 }
