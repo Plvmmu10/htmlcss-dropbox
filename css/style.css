@@ -210,6 +210,9 @@ button:hover{
     margin-right: 3rem;
 }
 
+/* input radio config */
+
+
 /* plans showcase config */
 .plansList{
     width: 100%;
@@ -238,8 +241,8 @@ button:hover{
 
 .p-showcase li{
     padding-bottom: 10px;
+    text-indent: -.6rem;
 }
-
 
 /* planPrice div config */
 .planPrice h3{
@@ -515,11 +518,11 @@ footer{
 }
 
 .footerList li{
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .footerList li:hover{
-    font-size: 16px;
+    text-decoration: underline;
 }
 
 /* bottom footer config */
