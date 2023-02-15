@@ -210,9 +210,6 @@ button:hover{
     margin-right: 3rem;
 }
 
-/* input radio config */
-
-
 /* plans showcase config */
 .plansList{
     width: 100%;
@@ -484,12 +481,20 @@ button:hover{
 }
 
 .faqContainer{
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .faq{
     font-weight: bold;
+    padding: 1.5rem;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+
+.faqContent{
     padding: 1.5rem;
 }
 
