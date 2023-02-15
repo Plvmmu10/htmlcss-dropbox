@@ -6,19 +6,19 @@
 
 /* Color styles */
 :root{    
---light-blue: #B4D0E7;
---light-color: #FFFFFF;
---btn-bg: #0061FF;
---light-grey: #F5F5F5;
---designit-logo-color: #A2D39B;
---wbr-color: #D5001F;
---clearchannel-color: #FFD830;
---florida-color: #0093CE;
---topps-color: #FF1C1C;
---arizona-color: #61082B;
---lonelyplanet-color: #0D2481;
---footer-bg: #000000;
---freetrial-text-color: #784769;
+--light-blue: rgb(180, 208, 231);
+--light-color: rgb(255, 255, 255);
+--btn-bg: rgb(0, 97, 255);
+--light-grey: rgb(245, 245, 245);
+--designit-logo-color: rgb(162, 211, 155);
+--wbr-color: rgb(213, 0, 31);
+--clearchannel-color: rgb(255, 216, 48);
+--florida-color: rgb(0, 147, 206);
+--topps-color: rgb(255, 28, 28);
+--arizona-color: rgb(97, 8, 43);
+--lonelyplanet-color: rgb(13, 36, 130);
+--footer-bg: rgb(0, 0, 0);
+--freetrial-text-color: rgb(120, 71, 105);
 
 }
 
@@ -360,13 +360,14 @@ button:hover{
 }
 
 .teamContainer{
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     flex-flow: row wrap;
 }
 
 .logoContainer{
-    width: calc(100% / 2);
-    height: calc(100% / 2);
+    width: 50%;
+    height: 50%;
     justify-content: center;
     align-items: center;
 }
@@ -380,16 +381,16 @@ button:hover{
 }
 
 .textLogo{
-    width: 45%;
-    padding-bottom: 2rem;
+    width: 50%;
+    padding: 1rem 20px;
 }
 
 .teamText{
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     padding: 20px;
-    justify-content: space-around;
+    height: calc(100vw / 3);
     background-color: var(--light-grey);
-    overflow: auto;
+    overflow-y: scroll;
 }
 
 .teamText > picture, .teamContent{
@@ -402,9 +403,8 @@ button:hover{
 
 .teamText hr{
     width: 20%;
-    margin-left: 20px;
+    margin: 1rem 20px;
 }
-
 
 
 /* Team section color */
@@ -507,16 +507,19 @@ footer{
 .footerList span{
     font-size: 20px;
     font-weight: bold;
-    color: white;
-    
+    color: white;    
 }
 
 .footerList span, li{
     padding: 5px;
 }
 
+.footerList li{
+    font-size: 13px;
+}
+
 .footerList li:hover{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* bottom footer config */
