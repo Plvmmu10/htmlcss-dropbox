@@ -381,8 +381,8 @@ button:hover{
 }
 
 .textLogo{
-    width: 50%;
-    padding: 1rem 20px;
+    width: 70%;
+    padding: 0 20px;
 }
 
 .teamText{
@@ -533,9 +533,6 @@ footer{
     font-size: 16px;
 }
 
-.footerList li:hover{
-    text-decoration: underline;
-}
 
 /* bottom footer config */
 
